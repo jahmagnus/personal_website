@@ -1,0 +1,19 @@
+.avatar-image{
+ animation: rightAvatar .8s ease-in;   
+}
+
+/* The avatar is already being altered by CSSTransition library in the homepage for the fading, however, this animation 
+is to make the avatar slide in from the right side of screen*/
+@keyframes rightAvatar {
+    0%{
+        transform: translateX(50px);
+    }
+
+    80%{
+        transform: translateX(0px);
+    }
+
+    100%{
+        transform: none;
+    }
+}

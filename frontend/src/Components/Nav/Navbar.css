@@ -1,0 +1,8 @@
+#navbar-id{
+    position: fixed;
+    background-color: #1b1c1d;
+    width: 100%;
+    z-index: 1;
+    margin-top: -1rem;
+    border-radius: 0px;
+}
