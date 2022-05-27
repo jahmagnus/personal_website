@@ -54,6 +54,10 @@
   padding-left: .5rem;
 }
 
+.item{
+  
+}
+
 @media only screen and (max-width: 376px) {
     #bkg-project{
         height: 110vh;
@@ -62,7 +66,7 @@
 
 @media only screen and (max-width: 500px) {
     #bkg-project{
-        height: 120vh;
+        height: auto;
     }
   }
 

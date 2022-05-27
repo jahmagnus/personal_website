@@ -21,7 +21,12 @@ const ProjectTemplate = () => {
     >
       <div className="ui grid ui-grid">
         <div className="column ten wide grid-column">
-        
+        <div className="row">
+        <div class="ui items">
+          <ProjectContainer/>
+          <ProjectContainer/>
+          </div>
+          </div>
     </div>
     </div>
     </div>
