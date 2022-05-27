@@ -66,6 +66,7 @@
 
 @media only screen and (max-width: 500px) {
     #bkg-project{
+        min-height: 110vh;
         height: auto;
     }
   }
