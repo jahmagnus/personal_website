@@ -10,9 +10,7 @@ const Navbar = () => {
 
   console.log("outside", homeActive, projectsActive, contactActive);
  
-  useEffect(() => {
-    console.log(homeActive, projectsActive, contactActive);
-  }, [homeActive, projectsActive, contactActive]);
+  
 
   return (
     <div className="ui inverted segment" id="navbar-id">
