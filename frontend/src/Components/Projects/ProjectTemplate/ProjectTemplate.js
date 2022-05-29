@@ -41,8 +41,7 @@ const ProjectTemplate = () => {
         <div class="ui items">
 
           {renderedList}
-          {/* <ProjectContainer header={projects[0].projectHeader} description={projects[0].description} imgsrc={projects[0].img}/>
-          <ProjectContainer header={projects[1].projectHeader} description={projects[1].description} imgsrc={projects[1].img}/> */}
+        
           </div>
           </div>
     </div>
