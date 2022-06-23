@@ -47,7 +47,7 @@ const Navbar = () => {
           to="bkg-contact"
           spy={true}
           smooth={true}
-          offset={200}
+          offset={210}
           
           
         >
