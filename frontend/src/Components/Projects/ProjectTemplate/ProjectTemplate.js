@@ -1,6 +1,7 @@
 import React from "react";
 
 import ProjectContainer from "../ProjectContainer";
+import departureImage from "../../../img/departureboard.png"
 import './ProjectTemplate.css'
 
 
@@ -8,7 +9,7 @@ const projects = [{
   projectHeader: 'Departures Web App',
   description: "During my time working on the railway I developed a departure board web application to ensure I had access to up to date information for my home station while I am concentrating on studying before going to work - I would keep this web app open on a spare monitor to keep track of delays and cancelations",
   tech: 'Javascript / React / HTML / CSS / REST / Expressjs',
-  img: "https://www.fillmurray.com/200/300"
+  img: {departureImage}
 }, 
 
 {
