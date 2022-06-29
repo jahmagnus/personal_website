@@ -24,6 +24,7 @@ const Navbar = () => {
           spy={true}
           smooth={true}
           duration={500}
+          offset={-100}
         >
           Home
         </Link>
@@ -35,7 +36,7 @@ const Navbar = () => {
           spy={true}
           smooth={true}
           duration={500}
-          offset={35}
+          offset={-35}
           
         >
           Projects
@@ -47,7 +48,8 @@ const Navbar = () => {
           to="bkg-contact"
           spy={true}
           smooth={true}
-          offset={210}
+          duration={500}
+          offset={-15}
           
           
         >

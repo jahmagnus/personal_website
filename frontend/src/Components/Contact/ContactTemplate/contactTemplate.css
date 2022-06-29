@@ -1,6 +1,7 @@
 #bkg-contact{
  height: 120vh;
  background-color: #1b1c1d;
+ 
 }
 .ui-form{
   margin-top: 10rem;
@@ -8,8 +9,16 @@
   padding: 3rem;
   border-radius: .5rem;
   text-align: left;
+  color: black;
 }
 
+h1{
+  margin-bottom: 3rem;
+}
+
+.ui-grid{
+  margin-right: 0px;
+}
 
 
 
@@ -22,16 +31,10 @@
   }
 
 
-  @media only screen and (min-width: 1000px) {
-    
-    #bkg-contact{
-        height: 140vh;
-    }
-  }
 
   @media only screen and (max-width: 500px) {
     
     #bkg-contact{
-        height: 150vh;
+        height: 110vh;
     }
   }

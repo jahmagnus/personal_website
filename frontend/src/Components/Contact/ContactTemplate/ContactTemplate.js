@@ -10,15 +10,18 @@ const ContactTemplate = () => {
     <div
       className="ui inverted vertical masthead center aligned segment" id="bkg-contact">
       <div className="ui grid ui-grid">
-        <div className="column ten wide grid-column">
+        <div className="column twelve wide grid-column">
         <div className="row">
         <div className="ui items">
       
         <form class="ui form ui-form">
+          <h1>Get in touch...</h1>
           <Field label="Name" type="text"/>
           <Field label="Email" type="text"/>
           <Field label="Phone Number" type="text"/>
           <Messagebox/>
+
+          <button class="ui primary button">Send it!</button>
           </form>
 
 </div>

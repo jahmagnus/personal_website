@@ -30,6 +30,10 @@ const ProjectTemplate = () => {
     return <ProjectContainer key={project.projectHeader} header={project.projectHeader} description={project.description} imgsrc={project.img}/>
   })
 
+
+  const listStyle = {
+    marginTop: "7rem"
+  }
   return (
     <div
       className="ui inverted vertical masthead center aligned segment"
@@ -37,8 +41,8 @@ const ProjectTemplate = () => {
     >
       <div className="ui grid ui-grid">
         <div className="column ten wide grid-column">
-        <div className="row">
-        <div class="ui items">
+        <div className="row" style={listStyle}>
+        <div className="ui items" >
 
           {renderedList}
         
