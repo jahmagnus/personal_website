@@ -14,9 +14,9 @@ const projects = [
 
   {
     projectHeader: "Coming Soon",
-    description: "New Portfolio project currently under development",
+    description: "This portfolio website is built using Javscript / React / HTML / CSS / REST / Expressjs and SQL",
     tech: "Javascript / React / HTML / CSS / REST / Expressjs",
-    img: "https://www.fillmurray.com/200/300",
+    img: "https://i.ibb.co/Hz2rXY6/portfoliohome-2.png",
   },
 ];
 
@@ -37,7 +37,7 @@ const ProjectTemplate = () => {
   });
 
   const listStyle = {
-    marginTop: "7rem",
+    marginTop: "3rem",
   };
   return (
     <div
