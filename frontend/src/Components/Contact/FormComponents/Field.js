@@ -2,7 +2,7 @@ import React from 'react'
 
 function Field( { label, type } ) {
 const inputStyle = {
-    opacity: "0.8",
+    opacity: "0.85",
     border: "none"
 }
 

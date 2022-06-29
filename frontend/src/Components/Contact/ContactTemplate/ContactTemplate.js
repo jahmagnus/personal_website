@@ -1,6 +1,7 @@
 import React from "react";
 
 import Field from "../FormComponents/Field"
+import Messagebox from "../FormComponents/Messagebox"
 import Footer from '../../Footer/Footer'
 import "./contactTemplate.css";
 
@@ -17,6 +18,7 @@ const ContactTemplate = () => {
           <Field label="Name" type="text"/>
           <Field label="Email" type="text"/>
           <Field label="Phone Number" type="text"/>
+          <Messagebox/>
           </form>
 
 </div>
