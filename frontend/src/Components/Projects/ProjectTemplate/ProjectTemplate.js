@@ -9,7 +9,7 @@ const projects = [
     description:
       "During my time working on the railway I developed a departure board web application to ensure I had access to up to date information for my home station while I am concentrating on studying before going to work - I would keep this web app open on a spare monitor to keep track of delays and cancelations",
     tech: "Javascript / React / HTML / CSS / REST / Expressjs",
-    img: "../../../img/departureboard.png",
+    img: "https://i.ibb.co/pZPGkh0/west-hampstead-1-5x-3.png",
   },
 
   {
@@ -19,6 +19,8 @@ const projects = [
     img: "https://www.fillmurray.com/200/300",
   },
 ];
+
+
 
 const ProjectTemplate = () => {
   let renderedList = [];
